@@ -1,0 +1,35 @@
+Table one - Artist:
+
+Id | Name | Contact email | Payment Date | Contract ID | Royalties TD
+
+Table two - Releases:
+
+Id | Artist ID | Genre | Release Date | Platforms | Royalties TD | Metrics
+
+API Design:
+Artists:
+	- GET /artists
+	- POST /artists
+	- GET /artists/{id}
+	- PUT /artists/{id}
+	- DELETE /artists/{id}
+
+Releases:
+	- GET /releases
+	- POST /releases
+	- GET /releases/{id}
+	- PUT /releases/{id}
+	- DELETE /releases/{id}
+
+GET /artists/{id}/releases
+
+Tasks/Reminders:
+	- GET /tasks
+	- POST /tasks
+	- PATCH /tasks/{id}/complete
+	- DELETE /tasks/{id}
+
+Request -> router -> service -> database
+POST /artists -> routers/artists.py -> services/artist_service.py -> SQLAlchemy + PostgreSQL -> return JSON response
+
+One artist can have many releases
