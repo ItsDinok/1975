@@ -1,8 +1,0 @@
-Mandatory functionality:
-
-- View all artists
-- View all releases
-- Focus on an artist
-- Focus on a release
-- Email reminders
-- Automatic scheduler
