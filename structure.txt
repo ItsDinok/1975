@@ -1,0 +1,6 @@
+This assumes two tables:
+
+- Artists
+- Releases
+
+More may be added, but you will have to ask me

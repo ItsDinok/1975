@@ -1,0 +1,10 @@
+This needs to have:
+
+- Add artists/tracks
+- View artist/tracks
+- Edit artists/tracks
+
+- Self-update
+
+- Release reminders
+- Royalty reminders
