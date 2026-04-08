@@ -1,3 +1,0 @@
-NEXT STEP:
-
-Build ugly dashboard that plugs in
